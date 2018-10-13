@@ -5,16 +5,9 @@ body {
 header {
     margin: 0;
     padding: 0;
-    width: 20%;
     height: 10%;
     overflow: auto;
-}
-.header1{
-    margin: 0;
-    padding: 0;
-    height: 10%;
-    float: left;
-    margin-bottom: 1px #000 solid;
+    border-bottom: 1px #000 solid;
 }
 
 ul {
