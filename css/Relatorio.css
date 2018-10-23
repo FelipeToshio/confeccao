@@ -63,6 +63,5 @@ li a:hover:not(.active) {
 }
 #campo #subh li {
     display: inline;
-    float: left;
-    
+    float: left;  
 }
