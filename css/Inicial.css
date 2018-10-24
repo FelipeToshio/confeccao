@@ -10,8 +10,8 @@ header {
     border-bottom: 2px #000 solid;
 }
 header p{
-    margin-top: 2%;
-    margin-bottom: 9%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 header h1{
     text-align: center;
@@ -126,3 +126,35 @@ li a:hover:not(.active) {
     padding-top: 0.3%;
 }
 
+#campo #ghu {
+    height: 20%;
+    width: 20%;
+    background-color: #000;
+    position: relative;
+    float: left;
+}
+#campo #gtm {
+    height: 20%;
+    width: 20%;
+    background-color: blue;
+    position: relative;
+    float: left;
+}
+#campo .efi {
+    height: 20%;
+    width: 20%;
+    background-color:red;
+    position: relative;
+    float: left;
+}
+#campo #cap {
+    height: 20%;
+    width: auto;
+    position: relative;
+}
+#campo h1{
+    text-align: center;
+    margin-top: 0;
+    color: #4CAF50;
+    
+}

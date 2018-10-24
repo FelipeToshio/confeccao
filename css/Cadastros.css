@@ -10,8 +10,8 @@ header {
     border-bottom: 2px #000 solid;
 }
 header p{
-    margin-top: 2%;
-    margin-bottom: 9%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 header h1{
     text-align: center;
