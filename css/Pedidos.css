@@ -125,4 +125,13 @@ li a:hover:not(.active) {
     padding-left: 2%;
     vertical-align: middle;
 }
-
+#campo #tabela{
+    margin: 2%;
+    width: 90%;
+    height: 70%;
+}
+#campo #legenda{
+    margin: 0 0 0 2%;
+    width: 90%;
+    height: 5%;
+}

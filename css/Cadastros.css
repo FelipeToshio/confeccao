@@ -125,4 +125,11 @@ li a:hover:not(.active) {
     padding-left: 2%;
     vertical-align: middle;
 }
-
+#campo .form {
+    margin: 2%;
+    padding: 0;
+    width: 100%;
+}
+th{
+    text-align: center;
+}
