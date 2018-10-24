@@ -7,8 +7,63 @@ header {
     margin: 0;
     padding: 0;
     height: 10%;
-    overflow: auto;
     border-bottom: 2px #000 solid;
+}
+header p{
+    margin-top: 2%;
+    margin-bottom: 9%;
+}
+header h1{
+    text-align: center;
+    margin-top: 0;
+    color: #4CAF50;
+    
+}
+header h3{
+    text-align: center;
+}
+.headalign{
+    float: left;
+}
+#logo{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    width:20%;
+}
+
+#form{
+    margin-left: 3%;
+    padding: 0;
+    width: auto;
+    height: 80px;
+    position: relative;  
+    float: left;
+}
+#cap{
+    margin-left: 3%;
+    padding: 0;
+    width: auto;
+    height: 80px;
+    position: relative;  
+    float: left;
+}
+#hist{
+    margin-left: 3%;
+    padding: 0;
+    width: auto;
+    height: 80px;
+    position: relative;  
+    float: left;
+}
+#dados{
+    margin-left: 1%;
+    padding: 0;
+    width: auto;
+    height: 80px;
+    position: relative;  
+    float: left;
 }
 
 ul  {
@@ -56,7 +111,7 @@ li a:hover:not(.active) {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 4.5%;
+    height: 5%;
     border-bottom: 1px #000 solid;
 }
 #campo #subh ol {
@@ -67,7 +122,7 @@ li a:hover:not(.active) {
 #campo #subh li {
     display: inline;
     float: left; 
-    padding-left: 20px;
-    padding-top: 3px;
+    padding-left: 2%;
+    padding-top: 0.3%;
 }
 
