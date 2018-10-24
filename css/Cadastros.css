@@ -130,6 +130,14 @@ li a:hover:not(.active) {
     padding: 0;
     width: 100%;
 }
-th{
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+#t2 {
+    width: 100%
+}
+#t2 table, th, td{
+    border:1px solid black;
     text-align: center;
 }

@@ -3,7 +3,7 @@
 <head>
 
 	<title>Relatorios</title>
-	<link rel="stylesheet" href="css/Pedidos.css" type="text/css" />
+	<link rel="stylesheet" href="css/Cadastros.css" type="text/css" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<script src="js/jquery.js"></script>
@@ -35,6 +35,71 @@
 				<li class="menu2"><a href="CadLinhas.html">Linhas</a></li>
 				<li class="menu2"><a href="CadPedidos.html" class="active">Pedidos</a></li>
 			</ol>
+		</div>
+		<div class="form">
+			<table id="t1">
+				<tr>
+					<td><label for="numero">Nº do Pedido:</label></td>
+					<td><input style="width: 100%" type="text" id="numero" /></td>
+				</tr>
+				<tr>
+					<td><label for="cliente">Cliente:</label></td>
+					<td><input style="width: 100%" type="text" id="cliente" /></td>
+				</tr>
+				<tr>
+					<td><label for="quantidade">Quantidade:</label></td>
+					<td><input style="width: 100%" type="text" id="quantidade" /></td>
+				</tr>
+				<tr>
+					<td><label for="prazo">Prazo de Entrega:</label></td>
+					<td><input style="width: 100%" type="text" id="prazo" /></td>
+				</tr>
+				<tr>
+					<td><label for="etapas">Etapas:</label></td>
+					<td>
+						<table id="t2">
+							<tr>
+								<th>Operações</th>
+								<th>Linha</th>
+								<th>Tempo Estimado</th>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Arte final</td>
+								<td>20 horas</td>
+							</tr>
+							<tr>
+									<td>2</td>
+									<td>Corte</td>
+									<td>22 horas</td>
+							</tr>
+							<tr>
+									<td>3</td>
+									<td>Costura</td>
+									<td>16 horas</td>
+							</tr>
+							<tr>
+									<td>4</td>
+									<td>Estamparia</td>
+									<td>8 horas</td>
+							</tr>
+							<tr>
+									<td>5</td>
+									<td>Embalagem</td>
+									<td>8 horas</td>
+							</tr>
+							<tr>
+									<td><td>Total de Horas</td>	</td>					
+									<td>74 horas</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+						<td><label for="obs">Observações</label></td>
+						<td><input style="width: 100%" type="text" id="obs" /></td>
+					</tr>
+			</table>
 		</div>
 	</div>
 	<p><a href="#top">Back to top</a></p>
