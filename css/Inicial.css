@@ -123,7 +123,7 @@ li a:hover:not(.active) {
     display: inline;
     float: left; 
     padding-left: 2%;
-    padding-top: 0.3%;
+    vertical-align: middle;
 }
 #campo #sup {
     position: relative;
