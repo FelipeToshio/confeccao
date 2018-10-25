@@ -3,7 +3,7 @@
 <head>
 
 	<title>Relatórios</title>
-	<link rel="stylesheet" href="css/Relatorio.css" type="text/css" />
+	<link rel="stylesheet" href="css/RelPedidos.css" type="text/css" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<script src="js/jquery.js"></script>
@@ -36,6 +36,49 @@
 				<li class="menu2"><a href="RelPedidos.html" class="active">Pedidos</a></li>
 			</ol>
 		</div>
+		<div class="form">
+			<table>
+				<tr>
+					<td><label for="nome">Nº do Pedido:</label></td>
+					<td><input style="width: 100%" type="text" id="nome" /></td>
+				</tr>
+			</table>
+		</div>
+		<div class="form">
+			<table>
+				<tr>
+					<td>Tempo de produção total:</td>
+					<td style="text-align:center"><b>19 horas</b></td>
+				</tr>
+			</table>
+		</div>
+		<div id="grafico"><img src="..\confeccao\images/Gráfico - Distribuição de Tempo.png" height="100%" width="100%" alt="@" align="left"/></div>
+		<div class="form">
+			<table>
+				<tr>
+					<td>Custo total:</td>
+					<td style="text-align:center"><b>R$   120,00</b></td>
+				</tr>
+			</table>
+		</div>
+		<div class="form" style="padding-left: 23% ">
+			<table>
+				<tr>
+					<td>Operadores:</td>
+					<td style="text-align:center"><b>R$    70,00</b></td>
+				</tr>
+			</table>
+		</div>
+		<div id="grafico" ><img src="..\confeccao\images/Gráfico - Mão de Obra.png" height="100%" width="100%" alt="@" align="left"/></div>
+		<div class="form" style="padding-left: 23% ">
+			<table>
+				<tr>
+					<td>Linha:</td>
+					<td style="text-align:center"><b>R$    50,00</b></td>
+				</tr>
+			</table>
+		</div>
+		<div id="grafico" ><img src="..\confeccao\images/Gráfico - Custo por Linha.png" height="100%" width="100%" alt="@" align="left"/></div>
 	</div>
 	<p><a href="#top">Back to top</a></p>
 </body>
