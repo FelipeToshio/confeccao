@@ -128,7 +128,7 @@ li a:hover:not(.active) {
 #campo .form {
     margin: 2%;
     padding: 0;
-    width: 100%;
+    width: auto;
 }
 table{
     width: 50%;
@@ -140,4 +140,35 @@ table{
 #t2 table, th, td{
     border:1px solid black;
     text-align: center;
+}
+#campo #bot {
+    padding-left: 2%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+#campo #qr {
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin: 2%;
+}
+#campo #qr #imp{
+    width: 50%;
+    height: 20%;
+    float: left;
+    position: relative;
+}
+#campo #qr #cod{
+    width: 25%;
+    height: 20%;
+    padding-left: 10%;
+    float: left;
+    position: relative;
+}
+#campo #qr #imp #tam{
+    width: 30%;
+    height: 30%;
+    padding-left: 25%
 }

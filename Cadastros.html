@@ -10,28 +10,37 @@
 </head>
 
 <body>
-		<header>
-				<div id="logo" class="headalign"><img src="..\confeccao\images/logo.png" height="100%" width="100%" alt="@" align="left"/></div>
-				<div id="form" class="headalign"><p>Mostrar Dados em Formato de:</p><h3 style="background-color: rgba(76, 175, 79, 0.493)">Porcentagem</h3></div>
-				<div id="cap" class="headalign"><p>Capacidade Utilizada empresa(set)</p><h1>74%</h1></div>
-				<div id="hist" class="headalign"><h3>Histórico de Utilização:</h3></div>
-				<div id="dados" class="headalign">
-					<p>jun <em style="color:#4CAF50">68%</em></p>
-					<p>jul <em style="color:#4CAF50">70%</em></p>
-					<p>ago <em style="color:#4CAF50">72%</em></p>
-				</div>
-		
-			</header>
+	<header>
+		<div id="logo" class="headalign"><img src="..\confeccao\images/logo.png" height="100%" width="100%" alt="@" align="left" /></div>
+		<div id="form" class="headalign">
+			<p>Mostrar Dados em Formato de:</p>
+			<h3 style="background-color: rgba(76, 175, 79, 0.493)">Porcentagem</h3>
+		</div>
+		<div id="cap" class="headalign">
+			<p>Capacidade Utilizada empresa(set)</p>
+			<h1>74%</h1>
+		</div>
+		<div id="hist" class="headalign">
+			<h3>Histórico de Utilização:</h3>
+		</div>
+		<div id="dados" class="headalign">
+			<p>jun <em style="color:#4CAF50">68%</em></p>
+			<p>jul <em style="color:#4CAF50">70%</em></p>
+			<p>ago <em style="color:#4CAF50">72%</em></p>
+		</div>
+
+	</header>
 	<ul>
 		<li><a href="PaginaInicial.html">Página Inicial</a></li>
 		<li><a href="Pedidos.html">Pedidos</a></li>
 		<li><a href="Relatorios.html">Relatórios</a></li>
-		<li><a class="active"  href="Cadastros.html">Cadastros</a></li>
+		<li><a class="active" href="Cadastros.html">Cadastros</a></li>
 	</ul>
 	<div id="campo">
 		<div id="subh">
 			<ol>
-				<li class="menu2"><a href="Cadastros.html" class="active">Operadores</a></li><!--Cadastros = Cadastros de Operadores-->
+				<li class="menu2"><a href="Cadastros.html" class="active">Operadores</a></li>
+				<!--Cadastros = Cadastros de Operadores-->
 				<li class="menu2"><a href="CadLinhas.html">Linhas</a></li>
 				<li class="menu2"><a href="CadPedidos.html">Pedidos</a></li>
 			</ol>
@@ -40,24 +49,33 @@
 			<table style="width:50%">
 				<tr>
 					<td><label for="nome">Nome do Operador:</label></td>
-					<td><input style="width: 100%" type="text" id="nome" value="Jorge Marcelo Costa"/></td>
+					<td><input style="width: 100%" type="text" id="nome" value="Jorge Marcelo Costa" /></td>
 				</tr>
 				<tr>
 					<td><label for="disponibilidade">Disponibilidade para produção:</label></td>
-					<td><input style="width: 100%" type="text" id="disponibilidade" value="8 horas / dia"/></td>
+					<td><input style="width: 100%" type="text" id="disponibilidade" value="8 horas / dia" /></td>
 				</tr>
 				<tr>
 					<td><label for="custo">Custo / Hora:</label></td>
-					<td><input style="width: 100%" type="text" id="custo" value="R$ 30,00"/></td>
+					<td><input style="width: 100%" type="text" id="custo" value="R$ 30,00" /></td>
 				</tr>
 				<tr>
 					<td><label for="linhas">Linhas Apto:</label></td>
-					<td><input style="width: 100%" type="text" id="linhas" value="Estamparia, Matriz"/></td>
+					<td><input style="width: 100%" type="text" id="linhas" value="Estamparia, Matriz" /></td>
 				</tr>
 			</table>
 		</div>
+		<div id="bot"><button type="button">Salvar Cadastro</button></div>
+		<div id="qr">
+				<div id="imp">
+					<button type="button">
+						<p>Imprimir QR code</p>
+						<div id="tam"><img src="..\confeccao\images/impressora.png" height="100%" width="100%" alt="@" align="center" /></div>
+					</button>
+				</div>
+				<div id="cod"><img src="..\confeccao\images/qr.png" height="100%" width="100%" alt="@" align="left" /></div>
+		</div>
 	</div>
-	<p><a href="#top">Back to top</a></p>
 </body>
 
 </html>
