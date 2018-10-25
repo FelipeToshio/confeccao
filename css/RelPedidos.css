@@ -153,6 +153,11 @@ li a:hover:not(.active) {
     float: left;
     padding-left: 20%;
 }
+#campo #grafico2{
+    width: 50%;
+    height: 50%;
+    padding-left: 28%;
+}
 #campo #dados #prod{
     width: auto;
     height: 20%;
