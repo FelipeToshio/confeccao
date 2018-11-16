@@ -1,0 +1,61 @@
+<html>
+
+<head>
+
+	<title>Relatório de Linhas</title>
+	<link rel="stylesheet" href="css/Relatorio2.css" type="text/css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<script src="js/jquery.js"></script>
+</head>
+
+<body>
+		<header>
+				<div id="logo" class="headalign"><img src="..\confeccao\images/logo.png" height="100%" width="100%" alt="@" align="left"/></div>
+				<div id="form" class="headalign"><p>Mostrar Dados em Formato de:</p><h3 style="background-color: rgba(76, 175, 79, 0.493)">Porcentagem</h3></div>
+				<div id="cap" class="headalign"><p>Capacidade Utilizada empresa(set)</p><h1>74%</h1></div>
+				<div id="hist" class="headalign"><h3>Histórico de Utilização:</h3></div>
+				<div id="dados" class="headalign">
+					<p>jun <em style="color:#4CAF50">68%</em></p>
+					<p>jul <em style="color:#4CAF50">70%</em></p>
+					<p>ago <em style="color:#4CAF50">72%</em></p>
+				</div>
+		
+			</header>
+	<ul>
+		<li><a href="nPaginaInicial.html">Página Inicial</a></li>
+		<li><a href="nPedidos.html">Pedidos</a></li>
+		<li><a class="active" href="nRelatorios.html">Relatórios</a></li>
+		<li><a href="nCadastros.html">Cadastros</a></li>
+	</ul>
+	<div id="campo">
+		<div id="subh">
+			<ol>
+				<li class="menu2"><a href="nRelatorios.html">Operadores</a></li><!--Relatorios = Relatorios de Operadores-->
+				<li class="menu2"><a href="nRelLinhas.html" class="active">Linhas</a></li>
+				<li class="menu2"><a href="nRelPedidos.html">Pedidos</a></li>
+			</ol>
+		</div>
+		<div class="form">
+			<table>
+				<tr>
+					<td><label for="nome">Nome da Linha:</label></td>
+					<td>
+						<select style="width: 100%" name="paginas" onchange="javascript: abreJanela(this.value)" >
+								<option value="RelLinhas.html" selected="selected">Vendas</option>
+								<option value="RelLinhasEstamparia.html"">Estamparia</option>
+								<option value="RelLinhasCorte.html">Corte</option>
+								<option value="RelLinhasCostura.html">Costura</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="grafico2"><img src="..\confeccao\images/Market Share Trimestral.png" height="100%" width="100%" alt="@" align="left"/></div>
+		<div class="valorPedido"><img src="..\confeccao\images/Valor por Pedido.png " height="100%" width="100%" alt="@" align="left"/></div>
+		<div class="grafico2"><img src="..\confeccao\images/Estado dos Pedidos.png" height="100%" width="100%" alt="@" align="left"/></div>
+		<div class="valorPedido"><img src="..\confeccao\images/Peças por Pedido.png" height="100%" width="100%" alt="@" align="left"/></div>
+	</div>
+</body>
+
+</html>
