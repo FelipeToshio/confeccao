@@ -3,7 +3,7 @@
 <head>
 
 	<title>Relatório de Linhas</title>
-	<link rel="stylesheet" href="css/Relatorio.css" type="text/css" />
+	<link rel="stylesheet" href="css/Relatorio3.css" type="text/css" />
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<script src="js/jquery.js"></script>
@@ -42,27 +42,18 @@
 					<td><label for="nome">Nome da Linha:</label></td>
 					<td>
 						<select style="width: 100%" name="paginas" onchange="javascript: abreJanela(this.value)" >
-								<option value="RelLinhas.html">Vendas</option>
-								<option value="RelLinhasEstamparia.html"">Estamparia</option>
+								<option value="RelLinhas.html" >Vendas</option>
+								<option value="RelLinhasEstamparia.html">Estamparia</option>
 								<option value="RelLinhasCorte.html" selected="selected">Corte</option>
-								<option value="RelLinhasCostura.html">Custura</option>
+								<option value="RelLinhasCostura.html">Costura</option>
 						</select>
 					</td>
 				</tr>
 			</table>
 		</div>
-		<div id="grafico"><img src="..\confeccao\images/Gráfico Dia de Trabalho.png" height="100%" width="100%" alt="@" align="left"/></div>
-		<div id="dados">
-			<div id="prod"><h1>50</h1><p>Produção do dia</p></div>
-			<div id="escrito"><p>Produção média diaria</p></div>
-			<div id="meses">
-				<p>jun <em style="color:#4CAF50">60%</em></p>
-				<p>jul <em style="color:#4CAF50">55%</em></p>
-				<p>ago <em style="color:rgb(68, 173, 72)">70%</em></p>
-			</div>
-		</div>
+		<div class="grafico2"><img src="..\confeccao\images/Relatório Corte.png" height="100%" width="100%" alt="@" align="left"/></div>
+		<div class="valorPedido"><img src="..\confeccao\images/Gráfico Corte.png " height="100%" width="100%" alt="@" align="left"/></div>
 	</div>
-	<p><a href="#top">Back to top</a></p>
 </body>
 
 </html>
