@@ -73,7 +73,7 @@ ul  {
     width: 20%;
     background-color: #f1f1f1;
     position: absolute;
-    height: 100%;
+    height: 135%;
 	overflow: auto;
 	border-right: 2px #000 solid;
 }
@@ -128,7 +128,7 @@ li a:hover:not(.active) {
 #campo #tabela{
     margin: 2%;
     width: 90%;
-    height: 70%;
+    height: auto;
 }
 #campo #legenda{
     margin: 0 0 0 2%;
@@ -147,4 +147,7 @@ li a:hover:not(.active) {
     padding-right: 10px;
     padding-left: 10px;
 
+}
+.blank{
+    /* background-color: red; */
 }
