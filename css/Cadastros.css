@@ -165,6 +165,7 @@ table{
     width: 180px;
     height: 180px;
     padding-left: 10%;
+    display: none;
     float: left;
     position: relative;
 }

@@ -135,3 +135,16 @@ li a:hover:not(.active) {
     width: 90%;
     height: 5%;
 }
+#tabela table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+#tabela th{
+    background-color: aqua;
+}
+#tabela td{
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
