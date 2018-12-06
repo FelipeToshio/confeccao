@@ -73,7 +73,7 @@ ul  {
     width: 20%;
     background-color: #f1f1f1;
     position: absolute;
-    height: 230%;
+    height: 280%;
 	overflow: auto;
 	border-right: 2px #000 solid;
 }
@@ -156,11 +156,13 @@ li a:hover:not(.active) {
 #campo #campoinf{
     position: relative;
     float: left;
-    padding-left: 20%
+    width: 80%;
+    padding-left: 18%;
+    
 }
 #campo #campoinf .grafico2{
-    width: 49%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     float: left;
     margin-right: 1%
 }
