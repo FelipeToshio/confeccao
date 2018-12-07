@@ -141,7 +141,7 @@ li a:hover:not(.active) {
     text-align: center;
 }
 #tabela th{
-    background-color: aqua;
+    background-color: rgb(129, 194, 238);
 }
 #tabela td{
     padding-right: 10px;
