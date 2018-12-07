@@ -174,3 +174,9 @@ table{
     height: 30%;
     padding-left: 35%
 }
+#campo #bot #flag{
+    display: none;
+    padding: 0;
+    margin: 0%; 
+    float: left;
+}

@@ -52,3 +52,7 @@
         item.addEventListener('click', handleClick);
         item.style.backgroundColor = "red";
     });
+    function dados(flag){
+        flag = !flag;
+        document.getElementById("flag").style.display = "initial";
+    }
